@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout.astro';
 	<main>
 		<header class="py-5 px-10 flex items-center fixed top-0 w-full justify-between">
 
-			<div>
+			<div class="flex flex-grow basis-0">
 				<svg 
 					class="h-6 w-28" 
 					viewBox="0 0 342 35" 
@@ -16,7 +16,7 @@ import Layout from '../layouts/Layout.astro';
 			</div>
 
 			<nav>
-				<ul class="flex text-sm [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
+				<ul class="flex text-sm [&>li>a]:text-gray-900 [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
 					<li><a href="#">Model S</a></li>
 					<li><a href="#">Model 3</a></li>
 					<li><a href="#">Model X</a></li>
@@ -26,8 +26,8 @@ import Layout from '../layouts/Layout.astro';
 				</ul>
 			</nav>
 
-			<nav>
-				<ul class="flex text-sm [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
+			<nav class="flex flex-grow basis-0 justify-end">
+				<ul class="flex text-sm [&>li>a]:text-gray-900 [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
 					<li><a href="#">Shop</a></li>
 					<li><a href="#">Account</a></li>
 					<li><a href="#">Menu</a></li>
