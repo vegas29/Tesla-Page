@@ -1,21 +1,20 @@
 ---
+import ModelYSection from '../components/ModelYSection.astro';
 import HeroSection from '../components/HeroSection.astro';
 import LandingHeader from '../components/LandingHeader.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Tesla - Web Page">
+
 	<LandingHeader/>
 
-	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+	<main class="snap-y snap-mandatory relative w-screen h-screen overflow-auto">
 		<div class="snap-center">
 			<HeroSection/>
 		</div>
 		<div class="snap-center">
-			<HeroSection/>
-		</div>
-		<div class="snap-center">
-			<HeroSection/>
+			<ModelYSection/>
 		</div>
 	</main>
 </Layout>
